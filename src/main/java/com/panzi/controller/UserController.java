@@ -14,7 +14,7 @@ public class UserController {
 	
 	@RequestMapping(value="index.html",method = RequestMethod.GET)
 	public String index_jsp(HttpServletRequest request){   
-		request.setAttribute("test", "测试测试");
+		request.setAttribute("test", "success");
         return "login";
     }   
 	
